@@ -8,16 +8,20 @@ Buatlah tampilan form yang berisi nama, nim, dan tahun lahir pada file `ui/form_
 
 JELASKAN PROSES PASSING DATA DARI FORM MENUJU TAMPILAN DENGAN FILE `README.md`
 
-Buat tampilan semenarik mungkin untuk dilihat.
+Penjelasan Proses Passing Data dari Form Menuju Tampilan:
+File form_data.dart: File ini berfungsi sebagai form input yang memungkinkan pengguna untuk memasukkan nama, NIM, dan tahun lahir. Setelah diisi, data ini dikirim ke layar lain melalui mekanisme navigasi. Fungsi ini mengambil input teks dan menggunakan Navigator.of(context).push() untuk membuka layar baru (TampilData) sambil membawa data yang dimasukkan oleh pengguna (nama, NIM, dan tahun lahir) ke layar berikutnya.
+File tampil_data.dart: File ini menampilkan data yang dikirim dari form. Setelah menerima data, widget ini menghitung usia berdasarkan tahun lahir yang diinput. Kemudian, informasi yang diterima ditampilkan dengan visual yang diatur menggunakan CircleAvatar dan Card, yang berisi data seperti nama, NIM, dan umur pengguna.
 
 
-Nama : ___
+Nama : Alfido Mazdan Marsyadi
 
-NIM : ___
+NIM : H1D022084
 
-Shift Baru: ___
+Shift Baru: B
 
 ## Screenshot
 Contoh :
-![Lampiran Form](form.png)
-![Lampiran Hasil](hasil.png)
+![form](https://github.com/user-attachments/assets/6fff1ac0-cdb4-42c5-8bac-20e38c802257)
+
+![hasil](https://github.com/user-attachments/assets/87af3c56-4cbf-4780-9142-f30a278891d4)
+
